@@ -6,7 +6,7 @@ namespace ClothingPack
     {
         void OnPutOn()
         {
-            GammaChanger.SetGamma(2.5f);
+            GammaChanger.SetGamma(2f);
         }
 
         void OnTakeOff()
