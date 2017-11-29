@@ -23,9 +23,8 @@ GameObject:
   - component: {fileID: 23896029573985852}
   - component: {fileID: 65136534628214610}
   - component: {fileID: 114358715153481824}
-  - component: {fileID: 114307392291143858}
-  - component: {fileID: 114351971258489362}
-  - component: {fileID: 114918172900653520}
+  - component: {fileID: 114483905980821880}
+  - component: {fileID: 114746106112714870}
   m_Layer: 0
   m_Name: GEAR_SkiGoggles
   m_TagString: Untagged
@@ -99,32 +98,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.170495, y: 0.074195996, z: 0.233802}
   m_Center: {x: 0.000054500997, y: 0.036398, z: -0.06121}
---- !u!114 &114307392291143858
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1079894761041594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 36
-  Weight: 3
---- !u!114 &114351971258489362
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1079894761041594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 50
-  Weight: 3
 --- !u!114 &114358715153481824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -169,10 +142,10 @@ MonoBehaviour:
   HoursToDryWithoutFire: 5
   HoursToFreeze: 1
   MainTexture: clth_hed_skigoggles
-  BlendTexture: CLTH_blend_M_001
-  DrawLayer: 49
+  BlendTexture: clth_blend_all_M_
+  DrawLayer: 41
   ImplementationType: ClothingPack.SkiGogglesImplementation,Clothing-Pack
---- !u!114 &114918172900653520
+--- !u!114 &114483905980821880
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -180,8 +153,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1079894761041594}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Script: {fileID: -234435149, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LootTable: 51
-  Weight: 5
+  Audio: PLAY_HARVESTINGCLOTH
+  Minutes: 10
+  YieldNames:
+  - GEAR_Cloth
+  YieldCounts: 01000000
+--- !u!114 &114746106112714870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1079894761041594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2064057923, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio: PLAY_REPAIRINGCLOTH
+  Minutes: 60
+  Condition: 75
+  RequiredTools:
+  - GEAR_SewingKit
+  - GEAR_HookAndLine
+  MaterialNames:
+  - GEAR_Cloth
+  MaterialCounts: 01000000

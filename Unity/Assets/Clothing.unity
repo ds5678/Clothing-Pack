@@ -161,26 +161,71 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1079894761041594, guid: 31163f2b827d24041bcec2ee971ebe0c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 31163f2b827d24041bcec2ee971ebe0c, type: 2}
-  m_RootGameObject: {fileID: 1530712713}
   m_IsPrefabParent: 0
---- !u!4 &7678078
+--- !u!4 &7678078 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4304293738540902, guid: 31163f2b827d24041bcec2ee971ebe0c,
     type: 2}
   m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_LocalRotation: {x: -0.10986622, y: 0.91073364, z: -0.18464218, w: 0.3527051}
-  m_LocalPosition: {x: -0, y: 0, z: 0.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 754999900}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 15, y: 135, z: -20}
+--- !u!1001 &272187929
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 754999900}
+    m_Modifications:
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.09960054
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.8067074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.5648625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.14224434
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 160
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 635cceb4f55c15a4e8474a628b7b11a1, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &272187930 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4953047284229448, guid: 635cceb4f55c15a4e8474a628b7b11a1,
+    type: 2}
+  m_PrefabInternal: {fileID: 272187929}
 --- !u!1 &508331301
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,178 +378,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7678078}
+  - {fileID: 272187930}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1530712713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1079894761041594, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 7678078}
-  - component: {fileID: 1530712720}
-  - component: {fileID: 1530712719}
-  - component: {fileID: 1530712718}
-  - component: {fileID: 1530712717}
-  - component: {fileID: 1530712716}
-  - component: {fileID: 1530712715}
-  - component: {fileID: 1530712714}
-  m_Layer: 0
-  m_Name: GEAR_SkiGoggles
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1530712714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114918172900653520, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 51
-  Weight: 5
---- !u!114 &1530712715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114351971258489362, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 50
-  Weight: 3
---- !u!114 &1530712716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114307392291143858, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1916184789, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LootTable: 36
-  Weight: 3
---- !u!114 &1530712717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114358715153481824, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -677973176, guid: 1bcf6bdd2766f6a4fb2e96da07cfc17c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConsoleName: 
-  DisplayNameLocalizationId: GAMEPLAY_SkiGoggles
-  DescriptionLocalizatonId: GAMEPLAY_SkiGogglesDescription
-  InventoryActionLocalizationId: 
-  PickUpAudio: 
-  StowAudio: Play_InventoryStow
-  PutBackAudio: 
-  WornOutAudio: 
-  WeightKG: 0.2
-  MaxHP: 100
-  DaysToDecay: 0
-  InspectOnPickup: 1
-  InspectDistance: 0.4
-  InspectScale: {x: 1, y: 1, z: 1}
-  InspectAngles: {x: 15, y: 135, z: -20}
-  InspectOffset: {x: 0, y: -0.05, z: 0}
-  Region: 5
-  MinLayer: 1
-  MaxLayer: 1
-  MovementSound: 0
-  Footwear: 0
-  DaysToDecayWornOutside: 365
-  DaysToDecayWornInside: 730
-  Warmth: 0.5
-  WarmthWhenWet: 0.25
-  Windproof: 1
-  Toughness: 3
-  SprintBarReduction: 0
-  Waterproofness: 50
-  HoursToDryNearFire: 1
-  HoursToDryWithoutFire: 5
-  HoursToFreeze: 1
-  MainTexture: clth_hed_skigoggles
-  BlendTexture: CLTH_blend_M_001
-  DrawLayer: 49
-  ImplementationType: ClothingPack.SkiGogglesImplementation,Clothing-Pack
---- !u!65 &1530712718
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65136534628214610, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.170495, y: 0.074195996, z: 0.233802}
-  m_Center: {x: 0.000054500997, y: 0.036398, z: -0.06121}
---- !u!23 &1530712719
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 23896029573985852, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 4e0f3c04d93ad824b9ca5a01cd287be8, type: 2}
-  - {fileID: 2100000, guid: 21c070c8bfc85d943aa220b9a9193166, type: 2}
-  - {fileID: 2100000, guid: 9c29a232a61a95245a415699353161f0, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1530712720
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 33074200959597440, guid: 31163f2b827d24041bcec2ee971ebe0c,
-    type: 2}
-  m_PrefabInternal: {fileID: 7678077}
-  m_GameObject: {fileID: 1530712713}
-  m_Mesh: {fileID: 4300000, guid: ee67c35e7063a374dbab759bd07a9a0f, type: 3}
 --- !u!1 &1954616253
 GameObject:
   m_ObjectHideFlags: 0
