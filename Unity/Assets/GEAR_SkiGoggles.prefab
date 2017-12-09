@@ -142,7 +142,7 @@ MonoBehaviour:
   HoursToDryWithoutFire: 5
   HoursToFreeze: 1
   MainTexture: clth_hed_skigoggles
-  BlendTexture: clth_blend_all_M_
+  BlendTexture: 
   DrawLayer: 41
   ImplementationType: ClothingPack.SkiGogglesImplementation,Clothing-Pack
 --- !u!114 &114483905980821880

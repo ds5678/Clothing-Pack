@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114457195788941278}
   - component: {fileID: 114410549621313548}
   m_Layer: 0
-  m_Name: GEAR_SkiMask
+  m_Name: GEAR_Skimask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

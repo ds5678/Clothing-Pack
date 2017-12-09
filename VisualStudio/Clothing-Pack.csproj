@@ -31,13 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp" />
-    <Reference Include="ModComponentMapper" />
     <Reference Include="System" />
     <Reference Include="UnityEngine" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\SkiGogglesImplementation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ModComponent\ModComponentMapper\ModComponentMapper.csproj">
+      <Project>{b809c688-2a3f-4573-821f-fb90ea433dad}</Project>
+      <Name>ModComponentMapper</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

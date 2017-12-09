@@ -3,3 +3,5 @@ GAMEPLAY_SkiGoggles, "Ski Goggles", "Skibrille", "Горнолыжная мас�
 GAMEPLAY_SkiGogglesDescription, "Finally something to protect the eyes from bright light and the cold.", "Endlich etwas, um die Augen vor grellem Licht und Kälte zu schützen.", "Защищает глаза от яркого света и холода."
 GAMEPLAY_SkiMask, "Ski Mask", "Skimaske"
 GAMEPLAY_SkiMaskDescription, "Very warm ski mask, covering most of the face.", "Sehr warme Skimaske, die den Großteil des Gesichts bedeckt."
+GAMEPLAY_ConstructionHelmet, "Construction Helmet", "Bauhelm"
+GAMEPLAY_ConstructionHelmetDescription, "Protects your head from damage but doesn't help much against the weather.", "Schützt deine Kopf vor Schaden, aber hilft nicht viel gegen das Wetter."
