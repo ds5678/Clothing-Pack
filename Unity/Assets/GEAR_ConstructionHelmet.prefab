@@ -128,12 +128,12 @@ MonoBehaviour:
   Footwear: 0
   DaysToDecayWornOutside: 0
   DaysToDecayWornInside: 0
-  Warmth: 0.5
-  WarmthWhenWet: 0.5
+  Warmth: 0.2
+  WarmthWhenWet: 0.2
   Windproof: 0.5
   Toughness: 10
   SprintBarReduction: 5
-  Waterproofness: 80
+  Waterproofness: 90
   HoursToDryNearFire: 1
   HoursToDryWithoutFire: 5
   HoursToFreeze: 1
