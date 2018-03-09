@@ -54,6 +54,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -71,6 +72,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -142,7 +144,7 @@ MonoBehaviour:
   HoursToDryWithoutFire: 5
   HoursToFreeze: 1
   MainTexture: clth_hed_skigoggles
-  BlendTexture: 
+  BlendTexture: clth_blend_all_M_
   DrawLayer: 41
   ImplementationType: ClothingPack.SkiGogglesImplementation,Clothing-Pack
 --- !u!114 &114483905980821880
