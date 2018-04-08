@@ -1,0 +1,27 @@
+﻿[
+	{
+		"name": "Clothing-Pack",
+		"version": "2.0.1",
+		"dependencies": [
+			{
+				"name": "ModComponent",
+				"version": "^2.0.0"
+			}
+		],
+		"assets": [
+			"https://github.com/WulfMarius/Clothing-Pack/releases/download/2.0.1/Clothing-Pack-V2.0.1.zip"
+		]
+	}, {
+		"name": "Clothing-Pack",
+		"version": "2.0.0",
+		"dependencies": [
+			{
+				"name": "ModComponent",
+				"version": "^2.0.0"
+			}
+		],
+		"assets": [
+			"https://github.com/WulfMarius/Clothing-Pack/releases/download/2.0.0-main/Clothing-Pack-V2.0.0.zip"
+		]
+	}
+]
