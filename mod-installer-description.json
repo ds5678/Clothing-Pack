@@ -1,0 +1,38 @@
+﻿{
+	"name": "Clothing-Pack",
+	"description": "New clothing items.",
+	"url": "https://github.com/WulfMarius/Clothing-Pack",
+	"releases": [
+		{
+			"version": "2.0.0",
+			"url": "https://github.com/WulfMarius/Clothing-Pack/releases/tag/2.0.0-main",
+			"changes": "updated to work with TLD V1.27",
+			"dependencies": [
+				{
+					"name": "ModComponent",
+					"version": "^2.0.0"
+				}
+			],
+			"assets": [
+				{
+					"url": "https://github.com/WulfMarius/Clothing-Pack/releases/download/2.0.0-main/Clothing-Pack-V2.0.0.zip"
+				}
+			]
+		}, {
+			"version": "2.0.1",
+			"url": "https://github.com/WulfMarius/Clothing-Pack/releases/tag/2.0.1",
+			"changes": "added Turkish translations from @utkuxgarip\nfixed a typo in German translations",
+			"dependencies": [
+				{
+					"name": "ModComponent",
+					"version": "^2.0.0"
+				}
+			],
+			"assets": [
+				{
+					"url": "https://github.com/WulfMarius/Clothing-Pack/releases/download/2.0.1/Clothing-Pack-V2.0.1.zip"
+				}
+			]
+		}		
+	]
+}
