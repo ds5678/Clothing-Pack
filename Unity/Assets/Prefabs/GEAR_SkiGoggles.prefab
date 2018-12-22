@@ -112,8 +112,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConsoleName: 
+  Radial: 0
   DisplayNameLocalizationId: GAMEPLAY_SkiGoggles
   DescriptionLocalizatonId: GAMEPLAY_SkiGogglesDescription
+  InventoryCategory: 0
   InventoryActionLocalizationId: 
   PickUpAudio: 
   StowAudio: Play_InventoryStow
@@ -122,11 +124,14 @@ MonoBehaviour:
   WeightKG: 0.2
   MaxHP: 100
   DaysToDecay: 0
+  InitialCondition: 0
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 1, y: 1, z: 1}
   InspectAngles: {x: 15, y: 135, z: -20}
   InspectOffset: {x: 0, y: -0.05, z: 0}
+  InspectModel: {fileID: 0}
+  NormalModel: {fileID: 0}
   Region: 5
   MinLayer: 1
   MaxLayer: 1

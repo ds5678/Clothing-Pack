@@ -8,15 +8,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1510450673898334}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
 --- !u!1 &1510450673898334
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4380682756495312}
   - component: {fileID: 33824721546433944}
@@ -33,7 +33,7 @@ GameObject:
 --- !u!4 &4380682756495312
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510450673898334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -46,7 +46,7 @@ Transform:
 --- !u!23 &23671927517342472
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510450673898334}
   m_Enabled: 1
@@ -56,6 +56,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: a8548eadd3b0e37439c3910059078cbe, type: 2}
   m_StaticBatchInfo:
@@ -80,14 +81,14 @@ MeshRenderer:
 --- !u!33 &33824721546433944
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510450673898334}
   m_Mesh: {fileID: 4300000, guid: 33d0a43073cb3a142b605e246e1e0290, type: 3}
 --- !u!65 &65281242273695896
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510450673898334}
   m_Material: {fileID: 0}
@@ -99,7 +100,7 @@ BoxCollider:
 --- !u!114 &114649947484218786
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510450673898334}
   m_Enabled: 1
@@ -108,8 +109,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConsoleName: 
+  Radial: 0
   DisplayNameLocalizationId: GAMEPLAY_ConstructionHelmet
   DescriptionLocalizatonId: GAMEPLAY_ConstructionHelmetDescription
+  InventoryCategory: 0
   InventoryActionLocalizationId: 
   PickUpAudio: Play_SndInvConstructionHelmet
   StowAudio: Play_InventoryStow
@@ -118,11 +121,14 @@ MonoBehaviour:
   WeightKG: 0.4
   MaxHP: 100
   DaysToDecay: 0
+  InitialCondition: 0
   InspectOnPickup: 1
   InspectDistance: 0.4
   InspectScale: {x: 0.5, y: 0.5, z: 0.5}
   InspectAngles: {x: 20, y: 140, z: 0}
   InspectOffset: {x: 0, y: 0, z: 0}
+  InspectModel: {fileID: 0}
+  NormalModel: {fileID: 0}
   Region: 0
   MinLayer: 1
   MaxLayer: 1

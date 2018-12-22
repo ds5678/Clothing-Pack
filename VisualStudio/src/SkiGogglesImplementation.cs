@@ -6,12 +6,12 @@ namespace ClothingPack
     {
         void OnPutOn()
         {
-            GammaChanger.SetGamma(2f);
+            BrightnessChanger.Brightness = BrightnessChanger.GetDefault() * 0.25f;
         }
 
         void OnTakeOff()
         {
-            GammaChanger.ResetGamma();
+            BrightnessChanger.Reset();
         }
     }
 }

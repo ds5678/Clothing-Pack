@@ -3,4 +3,8 @@ Temp
 AssetBundles
 .vs
 Unity.Editor.csproj
+Unity.PackageManagerUI.Editor.csproj
 Unity.sln
+Unity.TextMeshPro.csproj
+Unity.TextMeshPro.Editor.csproj
+UnityEditor.StandardEvents.csproj
