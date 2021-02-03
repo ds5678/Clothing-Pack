@@ -1,28 +1,19 @@
-#--------
-scene=Dam
-#--------
-item=GEAR_ConstructionHelmet p=-8.4954,2.1195,-6.6951 r=82.8440,270.4976,0.3864 c=100
-item=GEAR_ConstructionHelmet p=-15.2722,4.7451,-7.2569 r=350.5822,77.0129,228.3262 c=100
-
-
-#---------------------
-scene=MaintenanceShedA
-#---------------------
-item=GEAR_ConstructionHelmet p=10.9827,2.3407,-4.6512 r=12.1287,238.4943,357.2575 c=100
-
-
 loottable=Dresser
 item=SkiGoggles w=2
 item=SkiMask w=2
+item=BeanieCap w=2
 
 loottable=Locker
 item=SkiGoggles w=2
 item=SkiMask w=2
+item=BeanieCap w=2
 
 loottable=LockerLocked
 item=SkiGoggles w=3
 item=SkiMask w=3
+item=BeanieCap w=2
 
 loottable=BackPack
 item=SkiGoggles w=1
 item=SkiMask w=1
+item=BeanieCap w=2
