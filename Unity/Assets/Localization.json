@@ -1,0 +1,32 @@
+﻿{
+    "GAMEPLAY_SkiGoggles" : {
+                            "English" : "Ski Goggles",
+                            "German" : "Skibrille",
+                            "Russian" : "Горнолыжная маска",
+                            "Turkish" : "Kayak Gözlükleri"
+    },
+    "GAMEPLAY_SkiGogglesDescription" : {
+                            "English" : "Finally something to protect the eyes from bright light and the cold.",
+                            "German" : "Endlich etwas, um die Augen vor grellem Licht und Kälte zu schützen.",
+                            "Russian" : "Защищает глаза от яркого света и холода.",
+                            "Turkish" : "Sonunda gözleri parlak ışıktan ve soğuktan korumak için bir şey."
+    },
+    "GAMEPLAY_SkiMask" : {
+                            "English" : "Ski Mask",
+                            "German" : "Skimaske",
+                            "Russian" : "Лыжная маска",
+                            "Turkish" : "Kayak Maskesi"
+    },
+    "GAMEPLAY_SkiMaskDescription" : {
+                            "English" : "Very warm ski mask, covering most of the face.",
+                            "German" : "Sehr warme Skimaske, die den Großteil des Gesichts bedeckt.",
+                            "Russian" : "Очень теплая лыжная маска, покрывающая большую часть лица.",
+                            "Turkish" : "Yüzün çoğunu kaplayan çok sıcak kayak maskesi."
+    },
+    "GAMEPLAY_BeanieCap" : {
+                            "English" : "Beanie Cap"
+    },
+    "GAMEPLAY_BeanieCapDescription" : {
+                            "English" : "A warm hat for being out in the cold."
+    }
+}
