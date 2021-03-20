@@ -3,7 +3,7 @@
                             "DisplayNameLocalizationId" : "GAMEPLAY_SkiMask",
                             "DescriptionLocalizatonId" : "GAMEPLAY_SkiMaskDescription",
                             "InventoryActionLocalizationId" : "",
-                            "WeightKG": 0.35,
+                            "WeightKG": 0.25,
                             "DaysToDecay" : 0,
                             "MaxHP" : 100,
                             "InitialCondition" : "Random",
@@ -30,7 +30,7 @@
                             "DaysToDecayWornInside" : 400,
                             "Warmth" : 2,
                             "WarmthWhenWet" : 1.5,
-                            "Windproof" : 2,
+                            "Windproof" : 1.5,
                             "Waterproofness" : 30,
                             "Toughness" : 3,
                             "SprintBarReduction" : 0,
@@ -39,10 +39,17 @@
                             "HoursToDryNearFire" : 2.5,
                             "HoursToDryWithoutFire" : 6.5,
                             "HoursToFreeze" : 2.5,
-                            "MainTexture" : "clth_hed_skimask",
+                            "MainTexture" : "clth_hed_skimask_HMM_",
                             "BlendTexture" : "clth_blend_skimask_M_",
-                            "DrawLayer" : 0,
+                            "DrawLayer" : 20,
                             "ImplementationType" : ""
+                        },
+    "ModHarvestableComponent": {
+                            "Audio" : "",
+                            "Minutes" : 10,
+                            "YieldCounts" : [1],
+                            "YieldNames" : ["GEAR_Cloth"],
+                            "RequiredToolNames" : []
                         },
     "ModRepairableComponent" : {
                             "Audio" : "",
@@ -51,11 +58,5 @@
                             "RequiredTools" : ["GEAR_SewingKit","GEAR_HookAndLine"],
                             "MaterialNames" : ["GEAR_Cloth"],
                             "MaterialCounts" : [1]
-                        },
-    "ModHarvestableComponent": {
-                            "Audio" : "",
-                            "Minutes" : 10,
-                            "YieldCounts" : [1],
-                            "YieldNames" : ["GEAR_Cloth"]
                         }
 }

@@ -28,5 +28,23 @@
     },
     "GAMEPLAY_BeanieCapDescription" : {
                             "English" : "A warm hat for being out in the cold."
+    },
+    "GAMEPLAY_FaceMask" : {
+                            "English" : "Face Mask"
+    },
+    "GAMEPLAY_FaceMaskDescription" : {
+                            "English" : "Sometime before the apocalypse, people used to wear these everywhere."
+    },
+    "GAMEPLAY_FarmBoots" : {
+                            "English" : "Farmer's Boots"
+    },
+    "GAMEPLAY_FarmBootsDescription" : {
+                            "English" : "Not very warm, but tough and made for working."
+    },
+    "GAMEPLAY_BikeHelmet" : {
+                            "English" : "Bike Helmet"
+    },
+    "GAMEPLAY_BikeHelmetDescription" : {
+                            "English" : "An old bike helmet you found while traveling. Designed to protect the head."
     }
 }

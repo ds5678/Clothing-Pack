@@ -39,16 +39,17 @@
                                 "HoursToDryNearFire" : 1,
                                 "HoursToDryWithoutFire" : 2,
                                 "HoursToFreeze" : 1,
-                                "MainTexture" : "",
-                                "BlendTexture" : "",
-                                "DrawLayer" : 42,
+                                "MainTexture" : "CLTH_Hed_BeanieCap_HMM_",
+                                "BlendTexture" : "clth_blend_all_M_",
+                                "DrawLayer" : 52,
                                 "ImplementationType" : ""
                             },
     "ModHarvestableComponent": {
                                 "Audio" : "",
                                 "Minutes" : 10,
                                 "YieldCounts" : [1],
-                                "YieldNames" : ["GEAR_Cloth"]
+                                "YieldNames" : ["GEAR_Cloth"],
+                                "RequiredToolNames" : []
                             },
     "ModRepairableComponent" : {
                                 "Audio" : "",

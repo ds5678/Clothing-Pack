@@ -22,8 +22,8 @@
                             "InspectModel" : "",
 
                             "Region" : "Accessory",
-                            "MinLayer" : "Mid",
-                            "MaxLayer" : "Mid",
+                            "MinLayer" : "Base",
+                            "MaxLayer" : "Base",
                             "MovementSound" : "None",
                             "Footwear" : "None",
                             "DaysToDecayWornOutside" : 365,
@@ -39,10 +39,17 @@
                             "HoursToDryNearFire" : 1,
                             "HoursToDryWithoutFire" : 5,
                             "HoursToFreeze" : 1,
-                            "MainTexture" : "clth_hed_skigoggles",
+                            "MainTexture" : "clth_hed_skigoggles_HMM_",
                             "BlendTexture" : "clth_blend_all_M_",
                             "DrawLayer" : 41,
-                            "ImplementationType" : ""
+                            "ImplementationType" : "ClothingPack.SkiGogglesImplementation"
+                        },
+    "ModHarvestableComponent": {
+                            "Audio" : "",
+                            "Minutes" : 10,
+                            "YieldCounts" : [1],
+                            "YieldNames" : ["GEAR_Cloth"],
+                            "RequiredToolNames" : []
                         },
     "ModRepairableComponent" : {
                             "Audio" : "",
@@ -51,11 +58,5 @@
                             "RequiredTools" : ["GEAR_SewingKit","GEAR_HookAndLine"],
                             "MaterialNames" : ["GEAR_Cloth"],
                             "MaterialCounts" : [1]
-                        },
-    "ModHarvestableComponent": {
-                            "Audio" : "",
-                            "Minutes" : 10,
-                            "YieldCounts" : [1],
-                            "YieldNames" : ["GEAR_Cloth"]
                         }
 }
