@@ -37,7 +37,12 @@
     <Compile Include="src\SkiGogglesImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="ModComponentMapper, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <None Include="..\.gitignore" />
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ModComponent, Version=4.3.1.0, Culture=neutral, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
