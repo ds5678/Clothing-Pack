@@ -34,7 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\ClothingPackMod.cs" />
+    <Compile Include="src\Settings.cs" />
     <Compile Include="src\SkiGogglesImplementation.cs" />
+    <Compile Include="src\SpawnProbabilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
@@ -42,7 +45,14 @@
     <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="ModComponent, Version=4.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="MelonLoader.ModHandler">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\TheLongDark\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ModComponent, Version=4.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ModSettings, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

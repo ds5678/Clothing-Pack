@@ -40,11 +40,5 @@
     },
     "GAMEPLAY_FarmBootsDescription" : {
                             "English" : "Not very warm, but tough and made for working."
-    },
-    "GAMEPLAY_BikeHelmet" : {
-                            "English" : "Bike Helmet"
-    },
-    "GAMEPLAY_BikeHelmetDescription" : {
-                            "English" : "An old bike helmet you found while traveling. Designed to protect the head."
     }
 }

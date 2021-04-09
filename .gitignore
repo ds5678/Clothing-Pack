@@ -1,1 +1,6 @@
 .vs
+bin
+obj
+Library
+Temp
+Logs

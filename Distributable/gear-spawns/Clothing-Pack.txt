@@ -18,6 +18,7 @@ item=SkiGoggles w=1
 item=SkiMask w=1
 item=BeanieCap w=2
 
+tag=ClothingPack
 scene=CrashMountainRegion
 item=GEAR_Skimask p=1840.2730,62.0286,716.0191 r=313.4264,46.0518,16.4634 c=35
 item=GEAR_SkiGoggles p=1827.0800,60.2133,703.2510 r=3.1069,15.7210,8.0562 c=35

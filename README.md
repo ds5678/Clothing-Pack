@@ -25,5 +25,6 @@ I know many people might skip over this, but I hope you don't. You are so specia
 4. Download the latest version of `ModSettings.dll` from its [release page](https://github.com/zeobviouslyfakeacc/ModSettings/releases).
 5. Move `AssetLoader.dll`, `ModComponent.dll`, and `ModSettings.dll` into the Mods folder in your TLD install directory.
 6. Run The Long Dark once. It should generate some subfolders in your mods folder.
-7. Download `Clothing-Pack.zip` from the [releases page](https://github.com/ds5678/Clothing-Pack/releases)
-8. Move `Clothing-Pack.zip` into the `ModComponentZips` folder within your mods folder. Do not extract it!
+7. Download `Clothing-Pack.dll` and `Clothing-Pack.modcomponent` from the [releases page](https://github.com/ds5678/Clothing-Pack/releases)
+8. Move `Clothing-Pack.dll` into your mods folder.
+9. Move `Clothing-Pack.modcomponent` into the `ModComponentZips` folder within your mods folder.
