@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33074200959597440}
   - component: {fileID: 23896029573985852}
   - component: {fileID: 65136534628214610}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_SkiGoggles
   m_TagString: Untagged
   m_Icon: {fileID: 0}

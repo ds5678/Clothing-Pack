@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9130736939764409105}
   - component: {fileID: 5820004842470965442}
   - component: {fileID: 8977205494747371891}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BeanieCap_inspect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7173271857597525505}
   - component: {fileID: 4060647016478367495}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: GEAR_BeanieCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 1513551589962605078}
   - component: {fileID: 4283798911451791813}
   - component: {fileID: 1667074229286803572}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: BeanieCap_normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}

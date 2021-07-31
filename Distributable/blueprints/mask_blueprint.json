@@ -1,0 +1,18 @@
+{
+    "@type": "ModComponentAPI.ModBlueprint",
+    "RequiredGear": ["GEAR_Cloth"],
+    "RequiredGearUnits": [1],
+    "KeroseneLitersRequired": 0,
+    "GunpowderRequired": 0,
+    "RequiredTool": "",
+    "OptionalTools": ["GEAR_SewingKit","GEAR_HookAndLine"],
+    "RequiredCraftingLocation": "Anywhere",
+    "RequiresLitFire": false,
+    "RequiresLight": true,
+    "CraftedResult": "GEAR_ImprovisedFaceMask",
+    "CraftedResultCount": 1,
+    "DurationMinutes": 30,
+    "CraftingAudio": "Play_CraftingCloth",
+    "AppliedSkill" : "None",
+    "ImprovedSkill" : "None"
+}
