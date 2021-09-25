@@ -37,6 +37,7 @@
     },
     "GAMEPLAY_BeanieCap" : {
                             "English" : "Beanie Cap",
+							"German" : "Beanie Mütze",
                             "Russian" : "Шапка «Бини»",
                             "Italian" : "Berretto",
                             "Polish": "Beanie",
@@ -44,6 +45,7 @@
     },
     "GAMEPLAY_BeanieCapDescription" : {
                             "English" : "A warm hat for being out in the cold.",
+							"German" : "Eine warme Mütze für die eiserne kälte",
                             "Russian" : "Тёплая шапка для прогулок на холоде.",
                             "Italian" : "Un cappello che ti terrà al caldo.",
                             "Polish": "Ciepła wełniana czapka na mroźne dni",
@@ -51,6 +53,7 @@
     },
     "GAMEPLAY_ImprovisedFaceMask" : {
                             "English" : "Face Mask",
+							"German" : "Schutzmaske",
                             "Russian" : "Маска для лица",
                             "Italian" : "Maschera",
                             "Polish": "Maska na twarz",
@@ -58,6 +61,7 @@
     },
     "GAMEPLAY_MedicalFaceMask" : {
                             "English" : "Face Mask",
+							"German" : "Medizinische Gesichtsmaske",
                             "Russian" : "Медицинская маска для лица",
                             "Italian" : "Maschera",
                             "Polish": "Maska na twarz",
@@ -65,6 +69,7 @@
     },
     "GAMEPLAY_FaceMaskDescription" : {
                             "English" : "Sometime before the apocalypse, people used to wear these everywhere.",
+							"German" : "Irgendwann vor der Apokalypse trugen die Leute diese überall.",
                             "Russian" : "Когда-то до апокалипсиса люди носили их везде.",
                             "Italian" : "Prima dell'apocalisse le persone le indossavano dappertutto.",
                             "Polish": "Kiedyś, przed apokalipsą, ludzie nosili je wszędzie",
@@ -72,6 +77,7 @@
     },
     "GAMEPLAY_FarmBoots" : {
                             "English" : "Farmer's Boots",
+							"German" : "Bauernstiefel",
                             "Russian" : "Фермерские сапоги",
                             "Italian" : "Stivali da contadino",
                             "Polish": "Buty farmerskie",
@@ -79,6 +85,7 @@
     },
     "GAMEPLAY_FarmBootsDescription" : {
                             "English" : "Not very warm, but tough and made for working.",
+							"German" : "Nicht sehr warm, aber robust und zum Arbeiten gemacht.",
                             "Russian" : "Не очень тёплые, но прочные и созданы для работы.",
                             "Italian" : "Non tengono molto caldo, ma sono robusti e fatti per lavorare.",
                             "Polish": "Niezbyt ciepłe, ale wytrzymałe i przeznaczone do pracy",
