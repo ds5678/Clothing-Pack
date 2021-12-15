@@ -1,94 +1,105 @@
-﻿{
-    "GAMEPLAY_SkiGoggles" : {
-                            "English" : "Ski Goggles",
-                            "German" : "Skibrille",
-                            "Russian" : "Лыжные очки",
-                            "Turkish" : "Kayak Gözlükleri",
-                            "Italian" : "Occhiali da sci",
-                            "Polish": "Gogle narciarskie",
-                            "French (France)" : "Lunettes de ski"
-    },
-    "GAMEPLAY_SkiGogglesDescription" : {
-                            "English" : "Finally something to protect the eyes from bright light and the cold.",
-                            "German" : "Endlich etwas, um die Augen vor grellem Licht und Kälte zu schützen.",
-                            "Russian" : "Защищает глаза от яркого света и холода.",
-                            "Turkish" : "Sonunda gözleri parlak ışıktan ve soğuktan korumak için bir şey.",
-                            "Italian" : "Finalmente qualcosa per proteggere gli occhi dalla luce e dal freddo.",
-                            "Polish": "Wreszcie coś do ochrony oczu przed słońcem i chłodem",
-                            "French (France)" : "Enfin quelque chose pour protéger les yeux de la lumière vive et du froid."
-    },
-    "GAMEPLAY_SkiMask" : {
-                            "English" : "Ski Mask",
-                            "German" : "Skimaske",
-                            "Russian" : "Лыжная маска",
-                            "Turkish" : "Kayak Maskesi",
-                            "Italian" : "Maschera da sci",
-                            "Polish": "Maska narciarska",
-                            "French (France)" : "Masque de ski"
-    },
-    "GAMEPLAY_SkiMaskDescription" : {
-                            "English" : "Very warm ski mask, covering most of the face.",
-                            "German" : "Sehr warme Skimaske, die den Großteil des Gesichts bedeckt.",
-                            "Russian" : "Очень тёплая лыжная маска, покрывающая большую часть лица.",
-                            "Turkish" : "Yüzün çoğunu kaplayan çok sıcak kayak maskesi.",
-                            "Italian" : "Una maschera da sci che tiene caldo, coprendo la maggior parte della faccia.",
-                            "Polish": "Bardzo ciepła maska narciarska zakrywająca większość twarzy",
-                            "French (France)" : "Masque de ski très chaud, couvrant la majeure partie du visage."
-    },
-    "GAMEPLAY_BeanieCap" : {
-                            "English" : "Beanie Cap",
-			    "German" : "Beanie Mütze",
-                            "Russian" : "Шапка «Бини»",
-                            "Italian" : "Berretto",
-                            "Polish": "Beanie",
-                            "French (France)" : "Bonnet"
-    },
-    "GAMEPLAY_BeanieCapDescription" : {
-                            "English" : "A warm hat for being out in the cold.",
-			    "German" : "Eine warme Mütze für die eiserne kälte",
-                            "Russian" : "Тёплая шапка для прогулок на холоде.",
-                            "Italian" : "Un cappello che ti terrà al caldo.",
-                            "Polish": "Ciepła wełniana czapka na mroźne dni",
-                            "French (France)" : "Un couvre-chef chaud pour sortir dans le froid."
-    },
-    "GAMEPLAY_ImprovisedFaceMask" : {
-                            "English" : "Face Mask",
-			    "German" : "Schutzmaske",
-                            "Russian" : "Маска для лица",
-                            "Italian" : "Maschera",
-                            "Polish": "Maska na twarz",
-                            "French (France)" : "Masque"
-    },
-    "GAMEPLAY_MedicalFaceMask" : {
-                            "English" : "Face Mask",
-			    "German" : "Medizinische Gesichtsmaske",
-                            "Russian" : "Медицинская маска для лица",
-                            "Italian" : "Maschera",
-                            "Polish": "Maska na twarz",
-                            "French (France)" : "Masque"
-    },
-    "GAMEPLAY_FaceMaskDescription" : {
-                            "English" : "Sometime before the apocalypse, people used to wear these everywhere.",
-			    "German" : "Irgendwann vor der Apokalypse trugen die Leute diese überall.",
-                            "Russian" : "Когда-то до апокалипсиса люди носили их везде.",
-                            "Italian" : "Prima dell'apocalisse le persone le indossavano dappertutto.",
-                            "Polish": "Kiedyś, przed apokalipsą, ludzie nosili je wszędzie",
-                            "French (France)" : "Quelque temps avant l'apocalypse, les gens portaient ça partout."
-    },
-    "GAMEPLAY_FarmBoots" : {
-                            "English" : "Farmer's Boots",
-	    	            "German" : "Bauernstiefel",
-                            "Russian" : "Фермерские сапоги",
-                            "Italian" : "Stivali da contadino",
-                            "Polish": "Buty farmerskie",
-                            "French (France)" : "Bottes de fermier"
-    },
-    "GAMEPLAY_FarmBootsDescription" : {
-                            "English" : "Not very warm, but tough and made for working.",
-			    "German" : "Nicht sehr warm, aber robust und zum Arbeiten gemacht.",
-                            "Russian" : "Не очень тёплые, но прочные и созданы для работы.",
-                            "Italian" : "Non tengono molto caldo, ma sono robusti e fatti per lavorare.",
-                            "Polish": "Niezbyt ciepłe, ale wytrzymałe i przeznaczone do pracy",
-                            "French (France)" : "Pas très chaudes, mais résistantes et faites pour travailler."
-    }
+{
+	"GAMEPLAY_SkiGoggles": {
+		"English": "Ski Goggles",
+		"German": "Skibrille",
+		"Russian": "Лыжные очки",
+		"Turkish": "Kayak Gözlükleri",
+		"Italian": "Occhiali da sci",
+		"Polish": "Gogle narciarskie",
+		"French (France)": "Lunettes de ski",
+		"Simplified Chinese": "滑雪镜"
+	},
+	"GAMEPLAY_SkiGogglesDescription": {
+		"English": "Finally something to protect the eyes from bright light and the cold.",
+		"German": "Endlich etwas, um die Augen vor grellem Licht und Kälte zu schützen.",
+		"Russian": "Защищает глаза от яркого света и холода.",
+		"Turkish": "Sonunda gözleri parlak ışıktan ve soğuktan korumak için bir şey.",
+		"Italian": "Finalmente qualcosa per proteggere gli occhi dalla luce e dal freddo.",
+		"Polish": "Wreszcie coś do ochrony oczu przed słońcem i chłodem",
+		"French (France)": "Enfin quelque chose pour protéger les yeux de la lumière vive et du froid.",
+		"Simplified Chinese": "最后是保护眼睛免受强光和寒冷的影响。"
+	},
+	"GAMEPLAY_SkiMask": {
+		"English": "Ski Mask",
+		"German": "Skimaske",
+		"Russian": "Лыжная маска",
+		"Turkish": "Kayak Maskesi",
+		"Italian": "Maschera da sci",
+		"Polish": "Maska narciarska",
+		"French (France)": "Masque de ski",
+		"Simplified Chinese": "滑雪面罩"
+	},
+	"GAMEPLAY_SkiMaskDescription": {
+		"English": "Very warm ski mask, covering most of the face.",
+		"German": "Sehr warme Skimaske, die den Großteil des Gesichts bedeckt.",
+		"Russian": "Очень тёплая лыжная маска, покрывающая большую часть лица.",
+		"Turkish": "Yüzün çoğunu kaplayan çok sıcak kayak maskesi.",
+		"Italian": "Una maschera da sci che tiene caldo, coprendo la maggior parte della faccia.",
+		"Polish": "Bardzo ciepła maska narciarska zakrywająca większość twarzy",
+		"French (France)": "Masque de ski très chaud, couvrant la majeure partie du visage.",
+		"Simplified Chinese": "非常温暖的滑雪面膜，覆盖大部分脸部。"
+	},
+	"GAMEPLAY_BeanieCap": {
+		"English": "Beanie Cap",
+		"German": "Beanie Mütze",
+		"Russian": "Шапка «Бини»",
+		"Italian": "Berretto",
+		"Polish": "Beanie",
+		"French (France)": "Bonnet",
+		"Simplified Chinese": "豆豆帽"
+	},
+	"GAMEPLAY_BeanieCapDescription": {
+		"English": "A warm hat for being out in the cold.",
+		"German": "Eine warme Mütze für die eiserne kälte",
+		"Russian": "Тёплая шапка для прогулок на холоде.",
+		"Italian": "Un cappello che ti terrà al caldo.",
+		"Polish": "Ciepła wełniana czapka na mroźne dni",
+		"French (France)": "Un couvre-chef chaud pour sortir dans le froid.",
+		"Simplified Chinese": "一顶温暖的帽子，可以在寒冷中外出。"
+	},
+	"GAMEPLAY_ImprovisedFaceMask": {
+		"English": "Face Mask",
+		"German": "Schutzmaske",
+		"Russian": "Маска для лица",
+		"Italian": "Maschera",
+		"Polish": "Maska na twarz",
+		"French (France)": "Masque",
+		"Simplified Chinese": "口罩"
+	},
+	"GAMEPLAY_MedicalFaceMask": {
+		"English": "Face Mask",
+		"German": "Medizinische Gesichtsmaske",
+		"Russian": "Медицинская маска для лица",
+		"Italian": "Maschera",
+		"Polish": "Maska na twarz",
+		"French (France)": "Masque",
+		"Simplified Chinese": "口罩"
+	},
+	"GAMEPLAY_FaceMaskDescription": {
+		"English": "Sometime before the apocalypse, people used to wear these everywhere.",
+		"German": "Irgendwann vor der Apokalypse trugen die Leute diese überall.",
+		"Russian": "Когда-то до апокалипсиса люди носили их везде.",
+		"Italian": "Prima dell'apocalisse le persone le indossavano dappertutto.",
+		"Polish": "Kiedyś, przed apokalipsą, ludzie nosili je wszędzie",
+		"French (France)": "Quelque temps avant l'apocalypse, les gens portaient ça partout.",
+		"Simplified Chinese": "在世界末日之前的某个时候，人们过去常常穿着这些。"
+	},
+	"GAMEPLAY_FarmBoots": {
+		"English": "Farmer's Boots",
+		"German": "Bauernstiefel",
+		"Russian": "Фермерские сапоги",
+		"Italian": "Stivali da contadino",
+		"Polish": "Buty farmerskie",
+		"French (France)": "Bottes de fermier",
+		"Simplified Chinese": "农夫靴"
+	},
+	"GAMEPLAY_FarmBootsDescription": {
+		"English": "Not very warm, but tough and made for working.",
+		"German": "Nicht sehr warm, aber robust und zum Arbeiten gemacht.",
+		"Russian": "Не очень тёплые, но прочные и созданы для работы.",
+		"Italian": "Non tengono molto caldo, ma sono robusti e fatti per lavorare.",
+		"Polish": "Niezbyt ciepłe, ale wytrzymałe i przeznaczone do pracy",
+		"French (France)": "Pas très chaudes, mais résistantes et faites pour travailler.",
+		"Simplified Chinese": "不是很温暖，但坚韧，适合工作。"
+	}
 }
