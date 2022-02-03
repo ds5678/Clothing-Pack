@@ -44,14 +44,14 @@
                             "DrawLayer" : 20,
                             "ImplementationType" : ""
                         },
-    "ModHarvestableComponent": {
+    "ModHarvestableBehaviour": {
                             "Audio" : "",
                             "Minutes" : 10,
                             "YieldCounts" : [1],
                             "YieldNames" : ["GEAR_Cloth"],
                             "RequiredToolNames" : []
                         },
-    "ModRepairableComponent" : {
+    "ModRepairableBehaviour" : {
                             "Audio" : "",
                             "Minutes" : 60,
                             "Condition" : 50,
